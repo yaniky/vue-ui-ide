@@ -1,0 +1,13 @@
+build/*
+config/*
+node_modules/*
+public/*
+.browserslistrc
+.eslintignore
+.eslintrc.js
+.gitignore
+babel.config.js
+postcss.config.js
+yarn.lock
+.idea
+.git
