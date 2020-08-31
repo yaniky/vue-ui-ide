@@ -18,7 +18,7 @@ const config = merge(common, {
                     {
                         loader: MiniCssExtractPlugin.loader,
                         options: {
-                            publicPath: "./css/"
+                            publicPath: "./"
                         }
                     },
                     "css-loader",
@@ -33,7 +33,7 @@ const config = merge(common, {
             analyzerPort: 8888
         }),
         new MiniCssExtractPlugin({
-            filename: "css/[name].css"
+            filename: "[name].css"
         }),
     ],
     entry: "./src/lib/index.js",

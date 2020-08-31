@@ -27,14 +27,14 @@ components: {
 
 ```js
 import UI from "vue-ui-ide";
-import "vue-ui-ide/dist/css/main.css";
+import "vue-ui-ide/dist/main.css";
 Vue.use(UI);
 ```
 
 ## script引入
 
 ```xml
-<link rel="stylesheet" type="text/css" href="/static/css/main.css" />
+<link rel="stylesheet" type="text/css" href="/static/main.css" />
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
 <script type="text/javascript" src="/static/main.js"></script>
 <body>

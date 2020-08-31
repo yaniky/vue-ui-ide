@@ -25,8 +25,8 @@ module.exports = {
                             fallback: {
                                 loader:'file-loader',
                                 options: {
-                                    publicPath: "/",
-                                    name: 'assets/images/[name].[ext]'
+                                    publicPath: "./",
+                                    name: 'images/[name].[ext]'
                                 }
                             }
                         }
@@ -51,8 +51,8 @@ module.exports = {
                             fallback: {
                                 loader:'file-loader',
                                 options: {
-                                    publicPath: "/",
-                                    name: 'assets/font/[name].[ext]'
+                                    publicPath: "./",
+                                    name: 'font/[name].[ext]'
                                 }
                             }
                         }

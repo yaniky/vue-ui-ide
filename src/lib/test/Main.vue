@@ -1,6 +1,8 @@
 <template>
   <div class="vv-test-wrap">
-    <span class="vv-content">test</span>
+    <span class="vv-content">
+      <img :src="require('../../assets/images/1.jpg')">
+      test</span>
   </div>
 </template>
 <script>
@@ -14,6 +16,7 @@ export default {
 .vv-test-wrap {
   .vv-content {
     color: $main-color;
+    background: url("../../assets/images/1.jpg")
   }
 }
 </style>
