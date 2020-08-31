@@ -41,7 +41,7 @@ module.exports = {
 
         "no-cond-assign": 2,//禁止在条件表达式中使用赋值语句
 
-        "no-console": 2,//禁止使用console
+        "no-console": 1,//禁止使用console
 
         "no-const-assign": 2,//禁止修改const声明的变量
 

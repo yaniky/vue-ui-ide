@@ -1,15 +1,25 @@
-import Vue from "vue";
-import Test from "./test/Main.vue";
+import Test from "./test";
 
-const component = {
+const myComp = [
     Test
+];
+
+const install = function(Vue) {
+    if (install.installed) {
+        return;
+    }
+    for (const item of myComp) {
+        Vue.component(item.name, item);
+    }
 };
 
-Object.keys(component).forEach(name => {
-    Vue.component(name, component[name]);
-});
+if (typeof window !== "undefined" && window.Vue) {
+    install(window.Vue);
+}
 
-export default component;
+export default {
+    install
+};
 export {
     Test
 };
